@@ -22,7 +22,7 @@ $db['default']['database'] = 'Database Name';
 4. Import the sql file into your database from the Database folder.
 5. Upload the .htaccess file from htaccess folder into the server directory.
 
-Its Done !!!!!
+Its Done !!!!
 
 LOGIN USERS
 

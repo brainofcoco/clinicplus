@@ -63,7 +63,11 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
         <link rel="stylesheet" type="text/css" href="common/assets/bootstrap-fileupload/bootstrap-fileupload.css" />
         <link rel="stylesheet" type="text/css" href="common/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
 
-
+        <style>
+            .btn-info:hover {
+                background-color: #0DC2D6;
+            }
+        </style>
 
 
 
@@ -147,9 +151,9 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
 
                     <a href="" class="logo">
                         <strong>
-                            Hospital
+                            Clinic
                             <span>
-                                System
+                                Plus
                             </span>
                         </strong>
                     </a>
@@ -233,6 +237,7 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                             <?php } ?>
                         <?php } ?>
                         <!-- Bed notification end -->
+
                         <!-- Payment notification start-->
                         <?php if ($this->ion_auth->in_group(array('admin', 'Accountant'))) { ?> 
                             <?php if (in_array('finance', $this->modules)) { ?>
@@ -279,6 +284,7 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                             <?php } ?>
                         <?php } ?>
                         <!-- payment notification end -->  
+
                         <!-- patient notification start-->
                         <?php if ($this->ion_auth->in_group(array('admin', 'Accountant', 'Doctor', 'Nurse', 'Laboratorist'))) { ?> 
                             <?php if (in_array('patient', $this->modules)) { ?>
@@ -323,6 +329,7 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                             <?php } ?>
                         <?php } ?>
                         <!-- patient notification end -->  
+
                         <!-- donor notification start-->
                         <?php if ($this->ion_auth->in_group(array('admin', 'Doctor', 'Nurse', 'Laboratorist', 'Patient'))) { ?> 
                             <?php if (in_array('donor', $this->modules)) { ?>
@@ -367,6 +374,7 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                             <?php } ?>
                         <?php } ?> 
                         <!-- donor notification end -->  
+
                         <!-- medicine notification start-->
                         <?php if ($this->ion_auth->in_group(array('admin', 'Pharmacist', 'Doctor'))) { ?> 
                             <?php if (in_array('medicine', $this->modules)) { ?>
@@ -411,6 +419,8 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                             <?php } ?>
                         <?php } ?> 
                         <!-- medicine notification end -->  
+
+
                         <!-- report notification start-->
                         <?php if ($this->ion_auth->in_group(array('admin', 'Doctor', 'Laboratorist', 'Nurse'))) { ?> 
                             <?php if (in_array('report', $this->modules)) { ?>
@@ -558,6 +568,7 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                                 </li>
                             <?php } ?>
                         <?php } ?>
+                        
                         <?php if ($this->ion_auth->in_group(array('admin'))) { ?>
                             <?php if (in_array('doctor', $this->modules)) { ?>
                                 <li> <li class="sub-menu">
@@ -572,6 +583,10 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                                 </li>
                             <?php } ?>
                         <?php } ?>
+
+
+
+
                         <?php if ($this->ion_auth->in_group(array('admin', 'Accountant', 'Nurse', 'Doctor', 'Laboratorist', 'Receptionist'))) { ?>
                             <?php if (in_array('patient', $this->modules)) { ?>
                                 <li> <li class="sub-menu">
@@ -592,6 +607,13 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                                 </li>
                             <?php } ?>
                         <?php } ?>
+
+
+
+
+                        <!-- SCHEDULE & APPOINTMENT -->
+
+
 
 
                         <?php if ($this->ion_auth->in_group(array('admin', 'Nurse', 'Receptionist'))) { ?>
@@ -644,6 +666,97 @@ if (!$this->ion_auth->in_group(array('superadmin'))) {
                                 </li>
                             <?php } ?>
                         <?php } ?>
+
+
+                        <!--  END SCHEDULE & APPOINTMENT -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- KEEP GOING -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- START NEW -->
                         <?php if ($this->ion_auth->in_group('admin')) { ?>
                             <li> <li class="sub-menu">
                                 <a href="javascript:;" >

@@ -1,6 +1,7 @@
 # ClinicPlus
+Powerful Affordable solutions to quality healthcare for everyone.
 
-### LOGIN USERS
+## LOGIN USERS
 Role: Username, Password
 * Superadmin:     superadmin@hms.com, 12345
 * Admin:          admin@hms.com, 12345

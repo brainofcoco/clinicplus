@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'clinicplus';
-$db['default']['password'] = 'Password132@';
-$db['default']['database'] = 'clinicplus';
+$db['default']['username'] = 'jsjarumy_demouser';
+$db['default']['password'] = '~V]GRWBg+Js6';
+$db['default']['database'] = 'jsjarumy_clinicplusdemo';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

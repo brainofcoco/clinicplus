@@ -4,7 +4,7 @@
     <section class="wrapper site-min-height">
         <!-- page start-->
         <section class="">
-
+<!-- patient page -->
             <header class="panel-heading">
                 <?php echo lang('patient'); ?> <?php echo lang('database'); ?>
                 <div class="col-md-4 no-print pull-right"> 

@@ -58,6 +58,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'jsjarumy_demouser';
+// $db['default']['username'] = 'jsjarumy_liveuser';
 $db['default']['password'] = '~V]GRWBg+Js6';
 $db['default']['database'] = 'jsjarumy_clinicplusdemo';
 $db['default']['dbdriver'] = 'mysqli';

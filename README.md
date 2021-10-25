@@ -13,6 +13,8 @@ Role: Username, Password
 * Laboratorist:   laboratorist@hms.com, 12345
 * Receptionist:   receptionist@hms.com, 12345
 
+
+## PLEASE USE [DEPLOYMENT BRANCH FOR LIVE SERVER]
 ## Installation
 1. Upload zipped file Multi-Hms.zip to your server directory and unzip there.
 2. Create a database.
